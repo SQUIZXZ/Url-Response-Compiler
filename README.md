@@ -25,7 +25,7 @@ Step 6: To run unit tests run: python test_url_request_properties.py
 
 
 <h2>Future Works</h2>
-When storing the urls and their response property objects, instead of using a list, use a dicntionary O(1) so a it's possible to search a response to a url without having the search the entire list of urls O(n)
+When storing the urls and their response property objects, instead of using a list, use a dicntionary O(1) so a it's possible to search a response to a url without having the search the entire list of urls O(n)<br />
 
 Conform to PEP8
 
@@ -41,8 +41,8 @@ On that note, the getUrlRequestProperties() function needs to be split up into s
 
 getUrlsRequestProperties() complies with rfc 2616: https://stackoverflow.com/questions/53001960/rfc-2616-http-content-length-and-transfer-encoding-compatibility
 
-# Make sure no spaces in urls
-# Sepearated line format only 
+- Make sure no spaces in urls
+- Sepearated line format only 
 
 
 
