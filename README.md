@@ -1,6 +1,6 @@
 # Url-Response-Compiler
 
-<h2>Getting Started<h2>
+<h2>Getting Started</h2>
 
 Step 1: Clone the git repo<br /> 
 Step 2: cd into app folder<br />
