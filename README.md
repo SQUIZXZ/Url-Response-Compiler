@@ -25,7 +25,8 @@ Step 6: To run unit tests run: python test_url_request_properties.py
 
 
 <h2>Future Works</h2>
-When storing the urls and their response property objects, instead of using a list, use a dicntionary O(1) so a it's possible to search a response to a url without having the search the entire list of urls O(n)<br />
+When storing the urls and their response property objects, instead of using a list, use a dicntionary O(1) so a it's possible to search a response to a url without having the search the entire list of urls O(n)
+
 
 Conform to PEP8
 
