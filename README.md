@@ -1,5 +1,7 @@
 # Url-Response-Compiler
 
+Developed using Python 3.10.5
+
 <h2>Getting Started</h2>
 
 Step 1: Clone the git repo<br /> 
