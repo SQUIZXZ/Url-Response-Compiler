@@ -10,7 +10,7 @@ Step 3: Run source venv/bin/activate to start python virtual env<br />
 
 Step 4: run: python url_request_properties.py<br />
 
-Step 5:	Enter line separated urls with no spaces, for example:<br />
+Step 5:	Copy and paste line separated urls with no spaces, for example:<br />
 	
 http://www.bbc.co.uk/iplayer<br />
 https://google.com<br />
