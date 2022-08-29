@@ -2,11 +2,11 @@
 
 Getting Started
 
-Step 1: Clone the git repo 
-Step 2: cd into app folder 
-Step 3; Run source venv/bin/activate to start python virtual env
-Step 4: run: python url_request_properties.py
-        Follow instructions
-	      Enter line separated urls with no spaces
+Step 1: Clone the git repo<br /> 
+Step 2: cd into app folder<br />
+Step 3; Run source venv/bin/activate to start python virtual env<br />
+Step 4: run: python url_request_properties.py<br />
+        Follow instructions<br />
+	Enter line separated urls with no spaces<br />
 Step 5: To run unit tests run: python test_url_request_properties.py
 
