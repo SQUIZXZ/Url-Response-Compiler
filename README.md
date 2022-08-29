@@ -25,8 +25,7 @@ Step 6: To run unit tests run: python test_url_request_properties.py
 
 
 <h2>Future Works</h2>
-When storing the urls and their response property objects, instead of using a list, use a dicntionary O(1) so a it's possible to search a response to a url without having the search the entire list of urls O(n)
-
+When storing the urls and their response property objects, instead of using a list, use a dictionary O(1) so it's possible to search a response to a url without having the search the entire list of urls O(n)
 
 Conform to PEP8
 
@@ -36,7 +35,7 @@ Add test and src files for best practise
 
 Minimise any dependency
 
-Considering the time complexity of validateUrls() 0(n2) function to detect illegal chars in urls, an encoding library could be used in a sperate function to detect illgal chars in urls in which would reducuce the complexity to worst case 0(n). Doing this, it would be possbile to detect any urls that need encoding and removing before being later used in the algorithm.
+Considering the time complexity of validateUrls() 0(n2) function to detect illegal chars in urls, an encoding library could be used in a separate function to detect illegal chars in urls in which would reducuce the complexity to worst case 0(n). Doing this, it would be possbile to detect any urls that need encoding and removing them before later use in the algorithm.
 
 On that note, the getUrlRequestProperties() function needs to be split up into separated functions with params to make testing more transparent and clear 
 
