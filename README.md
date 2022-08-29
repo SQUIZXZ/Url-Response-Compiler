@@ -31,7 +31,7 @@ When storing the urls and their response property objects, instead of using a li
 
 Conform to PEP8
 
-Add type hints to function params
+Add type hints to function params for maintainability
 
 Implemnent the solution using classes to make it more organised and easier to test even though it was a smaller project
 
@@ -40,8 +40,8 @@ Add test and src files for best practise
 Minimise any dependency
 
 Considering the time complexity of validateUrls() function to detect illegal chars in urls, an encoding library could be used in a separate function to detect illegal chars in urls in which would reducuce the complexity to worst case 0(n). Doing this, it would be possible to detect any urls that need encoding and removing them before later use in the algorithm.
-
-On that note, the getUrlRequestProperties() function needs to be split up into separated functions with params to make testing more transparent and clear 
+ 
+getUrlRequestProperties() function could to be split up into separated functions with params to make testing more transparent and clear and to reduce the responsiblity of a single function 
 
 getUrlsRequestProperties() complies with rfc 2616: https://stackoverflow.com/questions/53001960/rfc-2616-http-content-length-and-transfer-encoding-compatibility
 
