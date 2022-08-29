@@ -6,9 +6,9 @@ Step 1: Clone the git repo<br />
 
 Step 2: cd into app folder<br />
 
-Step 3: Run source venv/bin/activate to start python virtual env<br />
+Step 3: Run <b>source venv/bin/activate</b> to start python virtual env<br />
 
-Step 4: run: python url_request_properties.py<br />
+Step 4: run <b>python url_request_properties.py</b><br />
 
 Step 5:	Copy and paste line separated urls with no spaces, for example:<br />
 	
@@ -21,7 +21,7 @@ https://ichef.bbci.co.uk/news/976/cpsprodpb/0DAA/production/_107889430_kittensth
 http://site.mockito.org/<br />
 bad://address
 	
-Step 6: To run unit tests run: python test_url_request_properties.py
+Step 6: To run unit tests run <b>python test_url_request_properties.py</b>
 
 
 <h2>Future Works</h2>
