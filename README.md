@@ -29,6 +29,8 @@ When storing the urls and their response property objects, instead of using a li
 
 Conform to PEP8
 
+Add type hints to function params
+
 Implemnent the solution using classes to make it more organised and easier to test even though it was a smaller project
 
 Add test and src files for best practise
