@@ -39,7 +39,7 @@ Add test and src files for best practise
 
 Minimise any dependency
 
-Considering the time complexity of validateUrls() function to detect illegal chars in urls, an encoding library could be used in a separate function to detect illegal chars in urls in which would reducuce the complexity to worst case 0(n). Doing this, it would be possible to detect any urls that need encoding and removing them before later use in the algorithm.
+Considering the validateUrls() function to detect illegal chars in urls, an encoding library could be used in a separate function to detect illegal chars. Doing this, it would be possible to detect any urls that need encoding and removing them before later use in the algorithm.
  
 getUrlRequestProperties() function could to be split up into separated functions with params to make testing more transparent and clear and to reduce the responsiblity of a single function 
 
